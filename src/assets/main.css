@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #cecece;
+}
+
+body {
+    background-color: #242424;
+    min-height: 100vh;
+}
+
+@keyframes underline-animation {
+    from {
+        text-decoration-color: transparent;
+    }
+    to {
+        text-decoration-color: #0300ff;
+    }
+}
+
+.router-link-active {
+    text-underline-offset: 1rem;
+    text-decoration: underline;
+    text-decoration-color: #0300ff;
+    animation: underline-animation 0.5s ease-in-out;
+}
