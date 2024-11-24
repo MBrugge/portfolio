@@ -6,15 +6,15 @@ const routes = [
         name: 'Home',
         component: () => import('@/views/Home.vue')
     },
-    { 
-        path: '/projects', 
-        name: 'Projects', 
-        component: () => import('@/views/Projects.vue') 
+    {
+        path: '/projects',
+        name: 'Projects',
+        component: () => import('@/views/Projects.vue')
     },
-    { 
-        path: '/:pathMatch(.*)*', 
-        name: 'NotFound', 
-        component: () => import('@/views/NotFound.vue') 
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'NotFound',
+        component: () => import('@/views/NotFound.vue')
     }
 ];
 
