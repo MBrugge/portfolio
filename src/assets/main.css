@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     color: #cecece;
+    letter-spacing: 0.1rem
 }
 
 body {
@@ -24,7 +25,7 @@ body {
 }
 
 .router-link-active {
-    text-underline-offset: 1rem;
+    text-underline-offset: 0.5rem;
     text-decoration: underline;
     text-decoration-color: #0300ff;
     animation: underline-animation 0.5s ease-in-out;
