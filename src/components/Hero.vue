@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue';
 import { Separator } from '@/components/ui/separator';
 import { RouterLink } from 'vue-router';
 
@@ -7,7 +6,6 @@ const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
-        window.location.hash = sectionId;
     }
 };
 </script>
