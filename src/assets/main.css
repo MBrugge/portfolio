@@ -20,13 +20,13 @@ body {
         text-decoration-color: transparent;
     }
     to {
-        text-decoration-color: #2e77c6;
+        text-decoration-color: #007880;
     }
 }
 
 .router-link-active {
     text-underline-offset: 0.5rem;
     text-decoration: underline;
-    text-decoration-color: #2e77c6;
+    text-decoration-color: #007880;
     animation: underline-animation 0.5s ease-in-out;
 }
