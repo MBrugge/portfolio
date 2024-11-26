@@ -11,7 +11,8 @@ const scrollToSection = (sectionId: string) => {
 </script>
 
 <template>
-    <section id="hero" class="min-h-screen w-full flex flex-col justify-center items-center text-center relative overflow-hidden">
+    <section id="hero"
+        class="min-h-screen w-full flex flex-col justify-center items-center text-center relative overflow-hidden">
         <h1 class="text-5xl font-bold mb-4 relative z-10">Marten Brugge</h1>
         <div class="w-full px-4 sm:w-2/5 relative z-10">
             <Separator />
@@ -54,7 +55,7 @@ const scrollToSection = (sectionId: string) => {
     opacity: 0.5;
 }
 
-#hero > * {
+#hero>* {
     position: relative;
     z-index: 10;
 }
