@@ -3,7 +3,8 @@
         "id": 1,
         "name": "Laravel Blog",
         "description": "A blog application built with Laravel.",
-        "framework": "Laravel"
+        "framework": "Laravel",
+        "path": "src/projects/index.html"
     },
     {
         "id": 2,
