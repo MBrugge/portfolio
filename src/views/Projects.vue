@@ -7,8 +7,8 @@ const projects = ref(projectsData);
 </script>
 
 <template>
-    <div class="flex flex-wrap justify-center pt-12">
-        <Card v-for="project in projects" :key="project.id" class="w-full sm:w-1/2 lg:w-1/3 m-2 rounded-lg flex flex-col bg-customBlue bg-opacity-50">
+    <div class="flex flex-wrap justify-center pt-12 w-full max-w-screen">
+        <Card v-for="project in projects" :key="project.id" class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 m-2 rounded-lg flex flex-col bg-customBlue bg-opacity-50">
             <div class="flex-grow">
                 <CardHeader class="border-b pb-4 mb-4">
                     <CardTitle class="text-xl font-bold">{{ project.name }}</CardTitle>
@@ -20,7 +20,7 @@ const projects = ref(projectsData);
             </div>
             <CardFooter class="pt-4 border-t flex justify-center">
                 <a :href="project.path" target="_blank"
-                    class="w-48 px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue text-center">
+                    class="w-48 px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue text-center transition-colors duration-300">
                     View Project
                 </a>
             </CardFooter>
