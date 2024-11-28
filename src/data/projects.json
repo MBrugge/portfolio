@@ -4,6 +4,7 @@
         "name": "Laravel Blog",
         "description": "A blog application built with Laravel.",
         "framework": "Laravel",
-        "path": "src/projects/index.html"
+        "path": "src/projects/index.html",
+        "repo": "https://github.com/MBrugge/laravel-blog"
     }
 ]

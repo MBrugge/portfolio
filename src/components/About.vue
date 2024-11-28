@@ -36,7 +36,8 @@ const age = computed(() => calculateAge(birthDate, currentDate));
         <div class="w-full px-4 sm:w-2/5 relative z-10">
             <Separator />
         </div>
-        <Accordion type="single" class="w-full px-4 sm:w-2/5 relative z-10 text-start" collapsible :default-value="defaultValue">
+        <Accordion type="single" class="w-full px-4 sm:w-2/5 relative z-10 text-start" collapsible
+            :default-value="defaultValue">
             <AccordionItem v-for="item in accordionItems" :key="item.value" :value="item.value">
                 <AccordionTrigger>{{ item.title }}</AccordionTrigger>
                 <AccordionContent>

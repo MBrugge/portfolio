@@ -13,8 +13,10 @@ import Separator from '@/components/ui/separator/Separator.vue';
             <p class="text-xl">Feel free to contact me if you are interested!</p>
         </div>
         <div class="mt-6 flex flex-col items-center space-y-4 relative z-10">
-            <a href="https://www.linkedin.com/in/marten-brugge" target="_blank" class="w-48 px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue">LinkedIn</a>
-            <a href="mailto:martenbrugge@gmail.com" class="w-48 px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue">Email Me</a>
+            <a href="https://www.linkedin.com/in/marten-brugge" target="_blank"
+                class="w-48 px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue">LinkedIn</a>
+            <a href="mailto:martenbrugge@gmail.com"
+                class="w-48 px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue">Email Me</a>
         </div>
     </section>
 </template>
