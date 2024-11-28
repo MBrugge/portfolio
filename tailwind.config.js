@@ -21,7 +21,9 @@ module.exports = {
         extend: {
             colors: {
                 customRed: '#990800',
-                customBlue: '#007880'
+                customBlue: '#007880',
+                textGrey: '#cecece',
+                backgroundGrey: '#242424'
             },
             keyframes: {
                 "accordion-down": {

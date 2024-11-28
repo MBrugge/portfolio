@@ -7,17 +7,20 @@ const projects = ref(projectsData);
 </script>
 
 <template>
-    <div class="flex flex-wrap justify-center">
-        <Card v-for="project in projects" :key="project.id" class="w-full sm:w-1/2 lg:w-1/3 px-2 m-4">
-            <CardHeader>
-                <CardTitle>{{ project.name }}</CardTitle>
-                <CardDescription>{{ project.framework }}</CardDescription>
-            </CardHeader>
-            <CardContent>
-                {{ project.description }}
-            </CardContent>
-            <CardFooter>
-                <a :href="project.path" target="_blank" class="px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue">
+    <div class="flex flex-wrap justify-center pt-12">
+        <Card v-for="project in projects" :key="project.id" class="w-full sm:w-1/2 lg:w-1/3 m-2 rounded-lg flex flex-col bg-customBlue bg-opacity-50">
+            <div class="flex-grow">
+                <CardHeader class="border-b pb-4 mb-4">
+                    <CardTitle class="text-xl font-bold">{{ project.name }}</CardTitle>
+                    <CardDescription class="text-textGrey">{{ project.framework }}</CardDescription>
+                </CardHeader>
+                <CardContent class="mb-12 overflow-y-auto">
+                    {{ project.description }}
+                </CardContent>
+            </div>
+            <CardFooter class="pt-4 border-t flex justify-center">
+                <a :href="project.path" target="_blank"
+                    class="w-48 px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue text-center">
                     View Project
                 </a>
             </CardFooter>
