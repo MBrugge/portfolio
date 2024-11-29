@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "name": "Laravel Blog",
-        "description": "A blog application built with Laravel.",
-        "framework": "Laravel",
-        "path": "src/projects/index.html",
-        "repo": "https://github.com/MBrugge/laravel-blog"
+        "name": "Hackathon ARG",
+        "framework": "No Framework",
+        "description": "An ARG made for a school hackathon. This was made by 5 people within 24 hours.",
+        "path": "src/projects/hackathon-arg/index.html",
+        "repo": "https://github.com/MBrugge/hackathon-arg"
     }
 ]
