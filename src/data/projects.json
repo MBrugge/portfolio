@@ -6,5 +6,12 @@
         "description": "An ARG made for a school hackathon. This was made by 5 people within 24 hours.",
         "path": "src/projects/hackathon-arg/index.html",
         "repo": "https://github.com/MBrugge/hackathon-arg"
+    },
+    {
+        "id": 2,
+        "name": "Terminal project",
+        "framework": "No Framework",
+        "description": "This is a Go terminal project. I made this in an attempt to learn Go,",
+        "repo": "https://github.com/MBrugge/terminal-project"
     }
 ]
