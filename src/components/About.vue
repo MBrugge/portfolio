@@ -6,8 +6,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 // Accordion Logic
 const defaultValue = 'item-1'
 const accordionItems = computed(() => [
-    { value: 'item-1', title: 'Who am I?', content: `I am a ${age.value} year old software developer from the Netherlands. I am currently studying Software Developer at Alfa-College in Groningen.` },
-    { value: 'item-2', title: 'What can I work with?', content: 'I have varying degrees of experience in a variety of languages and frameworks such as: Vue, Svelte, Laravel, TS, JS HTML, CSS, Go.' },
+    { value: 'item-1', title: 'Who am I?', content: `I am a ${age.value} year old software developer student from the Netherlands. I am currently studying Software Developer at Alfa-College in Groningen.` },
+    { value: 'item-2', title: 'What can I work with?', content: 'I have varying degrees of experience in a variety of languages and frameworks such as: Vue, Svelte, Laravel, TS, JS, and Go.' },
     { value: 'item-3', title: 'What have I done?', content: 'I have earned my MAVO-tl diploma. I have finished Cambridge at C2 level. I am currently working to earn my degree for Software Developer.' },
 ]);
 

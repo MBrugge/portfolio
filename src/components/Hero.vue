@@ -18,8 +18,8 @@ const scrollToSection = (sectionId: string) => {
             <Separator />
         </div>
         <div class="flex flex-col pt-2 sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 relative z-10">
-            <p class="text-xl">Fullstack Developer</p>
-            <p class="text-xl">Problem Solver</p>
+            <p class="text-xl">Student Fullstack Developer</p>
+            <!-- <p class="text-xl">Problem Solver</p> -->
         </div>
         <div class="mt-6 flex flex-col items-center space-y-4 relative z-10">
             <button @click="scrollToSection('about')"
