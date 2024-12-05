@@ -19,6 +19,7 @@
         "name": "Portfolio",
         "framework": "VueJS",
         "description": "This is my portfolio that you are currently on. It was made with VueJS as an improvement to my previous page.",
+        "path": "/",
         "repo": "https://github.com/MBrugge/portfolio"
     }
 ]
