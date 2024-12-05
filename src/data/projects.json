@@ -11,7 +11,14 @@
         "id": 2,
         "name": "Terminal project",
         "framework": "No Framework",
-        "description": "This is a Go terminal project. I made this in an attempt to learn Go,",
+        "description": "This is a Go terminal project. I made this in an attempt to learn Go.",
         "repo": "https://github.com/MBrugge/terminal-project"
+    },
+    {
+        "id": 3,
+        "name": "Portfolio",
+        "framework": "VueJS",
+        "description": "This is my portfolio that you are currently on. It was made with VueJS as an improvement to my previous page.",
+        "repo": "https://github.com/MBrugge/portfolio"
     }
 ]
