@@ -4,7 +4,7 @@
         "name": "Hackathon ARG",
         "framework": "No Framework",
         "description": "An ARG made for a school hackathon. This was made by 5 people within 24 hours.",
-        "path": "dist/projects/hackathon-arg/index.html",
+        "path": "projects/hackathon-arg/index.html",
         "repo": "https://github.com/MBrugge/hackathon-arg"
     },
     {
