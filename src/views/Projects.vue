@@ -21,13 +21,11 @@ const projects = ref(projectsData);
             </div>
             <CardFooter class="pt-4 border-t flex justify-center space-x-4">
                 <a v-if="project.path" :href="project.path" target="_blank"
-                    class="w-48 px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue text-center transition-colors duration-300"
-                    :class="{'flex-grow': !project.repo}">
+                    class="px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue text-center transition-colors duration-300 flex-grow">
                     Project
                 </a>
                 <a v-if="project.repo" :href="project.repo" target="_blank"
-                    class="w-48 px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue text-center transition-colors duration-300"
-                    :class="{'flex-grow': !project.path}">
+                    class="px-4 py-2 font-bold border border-gray-300 rounded-lg hover:bg-customBlue text-center transition-colors duration-300 flex-grow">
                     Repo
                 </a>
             </CardFooter>
